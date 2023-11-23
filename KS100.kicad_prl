@@ -81,7 +81,7 @@
     "files": [
       {
         "name": "KS100.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 1,
           "maximized": true,
@@ -96,11 +96,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -1928,
+          "maximized": false,
+          "pos_x": -8,
           "pos_y": -8,
           "size_x": 1936,
-          "size_y": 1186
+          "size_y": 1216
         }
       }
     ]
