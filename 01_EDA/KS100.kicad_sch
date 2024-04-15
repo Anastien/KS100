@@ -1,0 +1,441 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "455ac4d5-648b-4fa6-954d-74f086895bd8")
+	(paper "A3")
+	(title_block
+		(title "KS100")
+		(date "2024-04-09")
+		(rev "R1.0")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 96.52 119.38) (xy 96.52 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "0ae11c4d-6e08-4ba7-a4eb-f5d09025443c")
+	)
+	(polyline
+		(pts
+			(xy 115.57 119.38) (xy 115.57 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "128093db-7b9d-4992-b2f5-cf79e67bcc13")
+	)
+	(polyline
+		(pts
+			(xy 109.22 119.38) (xy 109.22 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "26d173ba-a881-44d1-9d99-1f3d46b18f3e")
+	)
+	(polyline
+		(pts
+			(xy 77.47 119.38) (xy 77.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "321bf671-0642-4c30-bf96-914f5146a23c")
+	)
+	(polyline
+		(pts
+			(xy 245.11 40.64) (xy 404.876 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "35f3586b-ffe2-4392-b7a9-900792e8f93b")
+	)
+	(polyline
+		(pts
+			(xy 83.82 119.38) (xy 83.82 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "46fa678a-0149-4deb-9091-91ccd9d775ef")
+	)
+	(polyline
+		(pts
+			(xy 115.57 144.78) (xy 77.47 144.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "59c8835c-5578-48f8-b454-9e94cecd2b64")
+	)
+	(polyline
+		(pts
+			(xy 115.57 125.73) (xy 77.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "5e6927aa-b079-44ec-834e-872c03c7cda1")
+	)
+	(polyline
+		(pts
+			(xy 132.08 127) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "6168afa6-6ff1-4d53-a5fb-fb82c2e1bb78")
+	)
+	(polyline
+		(pts
+			(xy 115.57 151.13) (xy 77.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "66fe6baf-9d0d-45c6-89da-1055f262b50a")
+	)
+	(polyline
+		(pts
+			(xy 115.57 138.43) (xy 77.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "70b94a5d-a219-4ad4-99ed-365a97b2d1b8")
+	)
+	(polyline
+		(pts
+			(xy 152.4 162.56) (xy 144.78 162.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "78478d87-cef9-470c-9afc-b6330235f2d9")
+	)
+	(polyline
+		(pts
+			(xy 115.57 132.08) (xy 77.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "7e307c74-4d6a-4317-971a-b99350bd2948")
+	)
+	(polyline
+		(pts
+			(xy 121.92 162.56) (xy 129.54 162.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "7f5ead97-eff0-4eac-a4a3-7cda6d7a7767")
+	)
+	(polyline
+		(pts
+			(xy 152.4 134.62) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "9a7ccb9f-bd70-4f02-b7bc-f99d2975b081")
+	)
+	(polyline
+		(pts
+			(xy 115.57 157.48) (xy 77.47 157.48)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "b16c9cc8-09a9-4b47-892b-31969c06e16c")
+	)
+	(polyline
+		(pts
+			(xy 142.24 127) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "f34f4fd1-1140-4f2c-a684-ebd1e672c686")
+	)
+	(polyline
+		(pts
+			(xy 90.17 119.38) (xy 90.17 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "f3a16079-c5e8-4c91-bc2d-ec81656220cd")
+	)
+	(polyline
+		(pts
+			(xy 102.87 119.38) (xy 102.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "f6a15e53-76be-4110-a43a-fc5c55c8247e")
+	)
+	(circle
+		(center 132.08 134.62)
+		(radius 0.635)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 132 132 132 1)
+		)
+		(uuid 894e408f-eb77-4546-9ed1-256332ef79b1)
+	)
+	(text_box "LCD"
+		(exclude_from_sim no)
+		(at 152.4 114.3 90)
+		(size 15.24 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "0ed42594-def7-4939-8641-ae409943b946")
+	)
+	(text_box "SWITCH MATRIX"
+		(exclude_from_sim no)
+		(at 71.12 114.3 0)
+		(size 50.8 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "816ed3f9-29f8-4b40-844a-e1796094cf84")
+	)
+	(text_box "SWD"
+		(exclude_from_sim no)
+		(at 139.7 114.3 90)
+		(size 5.08 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "a07a55e3-1ad4-4145-b7db-12f691d38d5c")
+	)
+	(text_box "MCU"
+		(exclude_from_sim no)
+		(at 129.54 139.7 90)
+		(size 15.24 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "b450c49f-c8c6-4324-815d-564b97eeae1e")
+	)
+	(text_box "PWR IN"
+		(exclude_from_sim no)
+		(at 129.54 114.3 90)
+		(size 5.08 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "fc024fc2-45db-441d-bd30-5cf6cb12af97")
+	)
+	(text "R1.0"
+		(exclude_from_sim no)
+		(at 250.19 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "09211d69-01e0-43c7-b8d3-8352b3a3753d")
+	)
+	(text "SCHEMATIC COVER SHEET"
+		(exclude_from_sim no)
+		(at 42.926 283.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "7991737f-cf12-4cd6-a876-49238e66ecdf")
+	)
+	(text "INIT."
+		(exclude_from_sim no)
+		(at 320.04 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "a3d07c43-f10e-42f4-a110-23727a1c1efa")
+	)
+	(text "09.04.2024"
+		(exclude_from_sim no)
+		(at 276.86 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "b8bae1f5-ae2f-4915-9e5d-7fb1bcccffa3")
+	)
+	(text "KS100"
+		(exclude_from_sim no)
+		(at 29.21 277.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "ca39fbb2-7ee1-4cc2-94c8-c8897e4079b3")
+	)
+	(sheet
+		(at 68.58 111.76)
+		(size 101.6 60.96)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "882985ab-729f-4c1f-84f6-f435b1d8f0f4")
+		(property "Sheetname" "Calculator"
+			(at 68.58 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "Calculator.kicad_sch"
+			(at 68.58 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "KS100"
+				(path "/455ac4d5-648b-4fa6-954d-74f086895bd8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
