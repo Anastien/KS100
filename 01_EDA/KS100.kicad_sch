@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240101)
+	(version 20240417)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "455ac4d5-648b-4fa6-954d-74f086895bd8")
@@ -10,6 +10,179 @@
 		(rev "R1.0")
 	)
 	(lib_symbols)
+	(circle
+		(center 132.08 134.62)
+		(radius 0.635)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 132 132 132 1)
+		)
+		(uuid 894e408f-eb77-4546-9ed1-256332ef79b1)
+	)
+	(text "R1.0"
+		(exclude_from_sim no)
+		(at 250.19 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "09211d69-01e0-43c7-b8d3-8352b3a3753d")
+	)
+	(text "SCHEMATIC COVER SHEET"
+		(exclude_from_sim no)
+		(at 42.926 283.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "7991737f-cf12-4cd6-a876-49238e66ecdf")
+	)
+	(text "INIT."
+		(exclude_from_sim no)
+		(at 320.04 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "a3d07c43-f10e-42f4-a110-23727a1c1efa")
+	)
+	(text "09.04.2024"
+		(exclude_from_sim no)
+		(at 276.86 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "b8bae1f5-ae2f-4915-9e5d-7fb1bcccffa3")
+	)
+	(text "KS100"
+		(exclude_from_sim no)
+		(at 29.21 277.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "ca39fbb2-7ee1-4cc2-94c8-c8897e4079b3")
+	)
+	(text_box "LCD"
+		(exclude_from_sim no)
+		(at 152.4 114.3 90)
+		(size 15.24 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "0ed42594-def7-4939-8641-ae409943b946")
+	)
+	(text_box "SWITCH MATRIX"
+		(exclude_from_sim no)
+		(at 71.12 114.3 0)
+		(size 50.8 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "816ed3f9-29f8-4b40-844a-e1796094cf84")
+	)
+	(text_box "SWD"
+		(exclude_from_sim no)
+		(at 139.7 114.3 90)
+		(size 5.08 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "a07a55e3-1ad4-4145-b7db-12f691d38d5c")
+	)
+	(text_box "MCU"
+		(exclude_from_sim no)
+		(at 129.54 139.7 90)
+		(size 15.24 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "b450c49f-c8c6-4324-815d-564b97eeae1e")
+	)
+	(text_box "PWR IN"
+		(exclude_from_sim no)
+		(at 129.54 114.3 90)
+		(size 5.08 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "fc024fc2-45db-441d-bd30-5cf6cb12af97")
+	)
 	(polyline
 		(pts
 			(xy 96.52 119.38) (xy 96.52 163.83)
@@ -218,179 +391,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "f6a15e53-76be-4110-a43a-fc5c55c8247e")
-	)
-	(circle
-		(center 132.08 134.62)
-		(radius 0.635)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 132 132 132 1)
-		)
-		(uuid 894e408f-eb77-4546-9ed1-256332ef79b1)
-	)
-	(text_box "LCD"
-		(exclude_from_sim no)
-		(at 152.4 114.3 90)
-		(size 15.24 55.88)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(color 72 72 72 1)
-			)
-		)
-		(uuid "0ed42594-def7-4939-8641-ae409943b946")
-	)
-	(text_box "SWITCH MATRIX"
-		(exclude_from_sim no)
-		(at 71.12 114.3 0)
-		(size 50.8 55.88)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 72 72 72 1)
-			)
-		)
-		(uuid "816ed3f9-29f8-4b40-844a-e1796094cf84")
-	)
-	(text_box "SWD"
-		(exclude_from_sim no)
-		(at 139.7 114.3 90)
-		(size 5.08 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(color 72 72 72 1)
-			)
-		)
-		(uuid "a07a55e3-1ad4-4145-b7db-12f691d38d5c")
-	)
-	(text_box "MCU"
-		(exclude_from_sim no)
-		(at 129.54 139.7 90)
-		(size 15.24 30.48)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 72 72 72 1)
-			)
-		)
-		(uuid "b450c49f-c8c6-4324-815d-564b97eeae1e")
-	)
-	(text_box "PWR IN"
-		(exclude_from_sim no)
-		(at 129.54 114.3 90)
-		(size 5.08 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 72 72 72 1)
-			)
-		)
-		(uuid "fc024fc2-45db-441d-bd30-5cf6cb12af97")
-	)
-	(text "R1.0"
-		(exclude_from_sim no)
-		(at 250.19 36.83 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "09211d69-01e0-43c7-b8d3-8352b3a3753d")
-	)
-	(text "SCHEMATIC COVER SHEET"
-		(exclude_from_sim no)
-		(at 42.926 283.972 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "7991737f-cf12-4cd6-a876-49238e66ecdf")
-	)
-	(text "INIT."
-		(exclude_from_sim no)
-		(at 320.04 36.83 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "a3d07c43-f10e-42f4-a110-23727a1c1efa")
-	)
-	(text "09.04.2024"
-		(exclude_from_sim no)
-		(at 276.86 36.83 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "b8bae1f5-ae2f-4915-9e5d-7fb1bcccffa3")
-	)
-	(text "KS100"
-		(exclude_from_sim no)
-		(at 29.21 277.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "ca39fbb2-7ee1-4cc2-94c8-c8897e4079b3")
 	)
 	(sheet
 		(at 68.58 111.76)

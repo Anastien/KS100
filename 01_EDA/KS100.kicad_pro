@@ -231,16 +231,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1651000|2641600|24794282-df3a-4f7d-983f-6c87921dc42f|00000000-0000-0000-0000-000000000000|/455ac4d5-648b-4fa6-954d-74f086895bd8/882985ab-729f-4c1f-84f6-f435b1d8f0f4|/455ac4d5-648b-4fa6-954d-74f086895bd8/882985ab-729f-4c1f-84f6-f435b1d8f0f4|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1727200|1701800|5bfe9dab-a122-4132-9730-c04b1dd5f70c|00000000-0000-0000-0000-000000000000|/455ac4d5-648b-4fa6-954d-74f086895bd8/882985ab-729f-4c1f-84f6-f435b1d8f0f4|/455ac4d5-648b-4fa6-954d-74f086895bd8/882985ab-729f-4c1f-84f6-f435b1d8f0f4|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -427,6 +418,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -440,6 +432,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
+      "overlapping_rule_areas": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
@@ -523,7 +516,19 @@
       "Net-(J3-Pin_24)": "",
       "Net-(J3-Pin_25)": "",
       "Net-(J3-Pin_26)": "",
+      "Net-(R6-Pad1)": "",
+      "Net-(R7-Pad1)": "",
       "Net-(U1-BOOT0)": "",
+      "unconnected-(J3-Pin_22-Pad22)": "",
+      "unconnected-(J3-Pin_23-Pad23)": "",
+      "unconnected-(J3-Pin_24-Pad24)": "",
+      "unconnected-(J3-Pin_25-Pad25)": "",
+      "unconnected-(J3-Pin_26-Pad26)": "",
+      "unconnected-(J3-Pin_27-Pad27)": "",
+      "unconnected-(J3-Pin_4-Pad4)": "",
+      "unconnected-(J3-Pin_5-Pad5)": "",
+      "unconnected-(R7-Pad1)": "",
+      "unconnected-(R7-Pad2)": "",
       "unconnected-(U1-PA0-Pad14)": "",
       "unconnected-(U1-PA1-Pad15)": "",
       "unconnected-(U1-PA10-Pad43)": "",
@@ -533,6 +538,7 @@
       "unconnected-(U1-PA2-Pad16)": "",
       "unconnected-(U1-PA3-Pad17)": "",
       "unconnected-(U1-PA4-Pad20)": "",
+      "unconnected-(U1-PA5-Pad21)": "",
       "unconnected-(U1-PA6-Pad22)": "",
       "unconnected-(U1-PA7-Pad23)": "",
       "unconnected-(U1-PA8-Pad41)": "",
@@ -553,7 +559,9 @@
       "unconnected-(U1-PC7-Pad38)": "",
       "unconnected-(U1-PC8-Pad39)": "",
       "unconnected-(U1-PC9-Pad40)": "",
-      "unconnected-(U1-PD2-Pad54)": ""
+      "unconnected-(U1-PD2-Pad54)": "",
+      "unconnected-(U1-PH0-Pad5)": "",
+      "unconnected-(U1-PH1-Pad6)": ""
     },
     "netclass_patterns": []
   },
@@ -561,7 +569,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "KS100.net",
       "plot": "Production/",
       "pos_files": "",
       "specctra_dsn": "",
@@ -573,6 +581,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -638,6 +647,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -669,7 +679,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "E:\\Personal\\Projects\\ANAS_METWALLY_CSH.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
