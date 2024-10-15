@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240417)
+	(version 20240602)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "455ac4d5-648b-4fa6-954d-74f086895bd8")
@@ -395,6 +395,10 @@
 	(sheet
 		(at 68.58 111.76)
 		(size 101.6 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
